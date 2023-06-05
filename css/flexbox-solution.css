@@ -1,0 +1,41 @@
+@import url(./styles.css);
+
+.main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*660px*/
+@media screen and (min-width: 41.25em) {
+  .wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  /*============================
+  Join our community
+  ============================*/
+  .join-section {
+    flex: 1 0 100%;
+  }
+
+  /*============================
+  Monthly Subscription && Why Us
+  ============================*/
+  .monthly-section,
+  .why-section {
+    flex: 1;
+  }
+}

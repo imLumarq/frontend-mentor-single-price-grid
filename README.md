@@ -10,13 +10,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,6 +22,12 @@ Users should be able to:
 - See a hover state on desktop for the Sign Up call-to-action
 
 ### Screenshot
+
+![mobile-375x809](./screenshots/mobile-375px.png)
+![desktop1440x800](./screenshots/desktop-1440px.png)
+![samsung-galaxy-fold-part-one](./screenshots/samsung-galaxy-fold-part-one.png)
+![samsung-galaxy-fold-part-two](./screenshots/samsung-galaxy-fold-part-two.png)
+![ipad-mini](./screenshots/ipad-mini.png)
 
 ### Links
 

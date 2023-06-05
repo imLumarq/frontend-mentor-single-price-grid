@@ -45,7 +45,7 @@ body,
 
 .wrapper {
   border-radius: var(--border-radius);
-  max-width: 645px;
+  max-width: 40.3125rem; /*645px*/
   overflow: hidden;
   width: 90%;
 }

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+:root {
+  --border-radius: 0.5rem;
+
+  /*Colors*/
+  --join-section-bg-color: hsl(0, 0%, 100%);
+  --monthly-section-bg-color: hsl(179, 62%, 43%);
+  --why-section-bg-color: hsl(179, 70%, 46%);
+  --accent-color: hsl(71, 73%, 54%);
+  --main-bg-color: hsl(204, 43%, 93%);
+  --text-color: hsl(218, 22%, 67%);
+
+  /*Typography*/
+  --font-size: 1rem;
+  --font-family: "Karla", sans-serif;
+  --weight-400: 400;
+  --weight-700: 700;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--main-bg-color);
+  color-scheme: light only;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--weight-400);
+  min-height: 100dvh;
+  min-height: 100vh;
+}
+
+body,
+.main {
+  min-height: inherit;
+}
+
+.main {
+  padding-block: 2rem;
+}
+
+.wrapper {
+  border-radius: var(--border-radius);
+  max-width: 645px;
+  overflow: hidden;
+  width: 90%;
+}
+
+section {
+  gap: 1rem;
+  line-height: 1.5;
+  padding: 2rem;
+}
+
+/*============================
+Join our community
+============================*/
+.join-section {
+  background-color: var(--join-section-bg-color);
+}
+
+.join-heading {
+  color: var(--monthly-section-bg-color);
+}
+
+.join-paragraph-one {
+  color: var(--accent-color);
+  font-weight: var(--weight-700);
+}
+
+.join-paragraph-two {
+  color: var(--text-color);
+}
+
+/*============================
+Monthly Subscription
+============================*/
+.monthly-section {
+  background-color: var(--monthly-section-bg-color);
+  color: var(--main-bg-color);
+}
+
+.monthly-heading {
+  text-transform: capitalize;
+}
+
+.monthly-paragraph-one {
+  display: flex;
+  gap: 1rem;
+}
+
+.price-span {
+  color: var(--join-section-bg-color);
+  font-size: xx-large;
+  font-weight: var(--weight-700);
+}
+
+.month-span {
+  align-self: center;
+}
+
+.monthly-button {
+  background-color: var(--accent-color);
+  border-radius: var(--border-radius);
+  border: none;
+  color: var(--join-section-bg-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--weight-700);
+  padding: 1rem;
+}
+
+/*============================
+Why Us
+============================*/
+.why-section {
+  background-color: var(--why-section-bg-color);
+  color: var(--main-bg-color);
+}
+
+.why-heading {
+  text-transform: capitalize;
+}
+
+.why-list {
+  list-style-type: none;
+}

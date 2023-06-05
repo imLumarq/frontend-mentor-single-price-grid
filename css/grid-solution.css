@@ -1,0 +1,29 @@
+@import url(./styles.css);
+
+.main {
+  display: grid;
+  place-items: center;
+}
+
+.wrapper {
+  display: grid;
+}
+
+section {
+  display: grid;
+  align-content: space-between;
+}
+
+/*660px*/
+@media screen and (min-width: 41.25em) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /*============================
+    Join our community
+    ============================*/
+  .join-section {
+    grid-column: span 2;
+  }
+}
